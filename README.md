@@ -4,4 +4,4 @@
 
 #### Cópia da rede social instagram, com slide infinito.
 
-<img src="C:\Users\maari\Dropbox\My PC (DESKTOP-K23H3C3)\Desktop\Program\.js\css\PROJ Instagram\tela.png" alt="tela"  />
+![tela](https://github.com/narinsss/Projeto-Instagram/blob/177dc494b584e7f559f7ab70ddbf070cc7c257fe/tela.png)
