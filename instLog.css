@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: Helvetica,Arial,sans-serif;;
+}
+
+.iphonec{
+    width: 450px;
+    height: 580px;
+    margin-left: 440px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.foto1:nth-child(1){}
+
+.foto2:nth-child(2){
+    opacity: 0;
+    animation-delay: 2.5s;
+}
+
+.foto3:nth-child(3){
+    opacity: 0;
+    animation-delay: 6s;
+}
+
+.foto1, .foto2, .foto3{
+    position: absolute;
+    margin-left: 588px;
+    width: 242px;
+    height: 406px;
+    margin-top: 121px;
+    animation: slide1 10s infinite linear;
+    opacity: 1;
+}
+
+@keyframes slide1 {
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+.instc{
+    width: 180px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.identc{
+    width: 270px;
+    height: 38px;
+    margin-top: 32px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.passc{
+    width: 270px;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.entc{
+    margin-top: 15px;
+    width: 280px;
+    height: 30px;
+    border-radius: 3px;
+    background-color:#0174f8;
+    border: none;
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logc{
+    margin-left: 880px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.log2c{
+    margin: auto;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    width: 350px;
+    height: 370px;
+}
+
+.hrc, .hrc_1, .hrc_2  {
+    margin-top: 13px;
+    display: inline-flex;
+    width: 275px;
+}
+
+.hrc_1{
+    margin-right: 15px;
+}
+
+.hrc_2{
+    margin-left: 15px;
+}
+
+h5{
+    margin-top: 5px;
+    color: #8e8e8e;
+}
+
+hr{
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.hrc{
+    margin-bottom: 15px;
+}
+
+.fbk_c{
+    width: 16px;
+    height: 16px;
+    background-color: #385185;
+}
+
+.log_fc{
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.forg1-c{
+    margin-top: 18px;
+}
+
+.forg_c{
+    text-decoration: none;
+    font-size: 12px;
+    color: #034685;
+}
+
+.log3c{
+    margin: auto;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin-top: 10px;
+    width: 350px;
+    height: 60px;
+}
+
+h6{
+    font-size: 15px;
+    color: #262626;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.register_c{
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app_c{
+    margin: auto;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.apl_c{
+    width: 130px;
+    height: 40px;
+    margin-right: 2px;
+}
+
+.aps_c{
+    width: 130px;
+    height: 40px;
+}
+
+@media screen and (min-width: 230px) and (max-width: 1050px){
+    .iphonec{
+      display: none;
+  }
+    .foto1, .foto2, .foto3{
+        display: none;
+  }
+    .logc{
+        margin: auto;
+        position: unset;
+        margin-top: 20px;
+    }
+  }
